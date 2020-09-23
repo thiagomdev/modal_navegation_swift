@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA93E202251A8EFE003E9B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E201251A8EFE003E9B7A /* AppDelegate.swift */; };
+		AA93E204251A8EFE003E9B7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E203251A8EFE003E9B7A /* SceneDelegate.swift */; };
+		AA93E206251A8EFE003E9B7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E205251A8EFE003E9B7A /* ViewController.swift */; };
+		AA93E209251A8EFE003E9B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E207251A8EFE003E9B7A /* Main.storyboard */; };
+		AA93E20B251A8EFF003E9B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA93E20A251A8EFF003E9B7A /* Assets.xcassets */; };
+		AA93E20E251A8EFF003E9B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E20C251A8EFF003E9B7A /* LaunchScreen.storyboard */; };
+		AA93E218251A924E003E9B7A /* MyViewOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E217251A924E003E9B7A /* MyViewOneViewController.swift */; };
+		AA93E220251A9288003E9B7A /* MyViewOneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E21F251A9288003E9B7A /* MyViewOneStoryboard.storyboard */; };
+		AA93E223251AC3A5003E9B7A /* MyViewOneNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E222251AC3A5003E9B7A /* MyViewOneNavViewController.swift */; };
+		AA93E226251AC3B9003E9B7A /* MyViewOneNavStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E225251AC3B9003E9B7A /* MyViewOneNavStoryboard.storyboard */; };
+		AA93E231251AC7CF003E9B7A /* MyviewTwoModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E230251AC7CF003E9B7A /* MyviewTwoModalViewController.swift */; };
+		AA93E234251AC7E4003E9B7A /* MyViewTwoModalStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E233251AC7E4003E9B7A /* MyViewTwoModalStoryboard.storyboard */; };
+		AA93E237251ACD13003E9B7A /* MyViewTwoNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E236251ACD13003E9B7A /* MyViewTwoNavViewController.swift */; };
+		AA93E23A251ACD28003E9B7A /* MyviewTwoNavStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E239251ACD28003E9B7A /* MyviewTwoNavStoryboard.storyboard */; };
+		AA93E23E251ACE6B003E9B7A /* MyViewThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E23D251ACE6B003E9B7A /* MyViewThreeViewController.swift */; };
+		AA93E242251ACE7F003E9B7A /* MyViewThreeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E241251ACE7F003E9B7A /* MyViewThreeStoryboard.storyboard */; };
+		AA93E245251ACF88003E9B7A /* MyViewThreeNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E244251ACF88003E9B7A /* MyViewThreeNavViewController.swift */; };
+		AA93E248251ACF9C003E9B7A /* MyViewThreeNavStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E247251ACF9C003E9B7A /* MyViewThreeNavStoryboard.storyboard */; };
+		AA93E24C251AD2B5003E9B7A /* MyViewFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E24B251AD2B5003E9B7A /* MyViewFourViewController.swift */; };
+		AA93E250251AD2C9003E9B7A /* MyViewFourStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E24F251AD2C9003E9B7A /* MyViewFourStoryboard.storyboard */; };
+		AA93E253251AD36F003E9B7A /* MyViewFourNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E252251AD36F003E9B7A /* MyViewFourNavViewController.swift */; };
+		AA93E256251AD386003E9B7A /* MyViewFourNavStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E255251AD386003E9B7A /* MyViewFourNavStoryboard.storyboard */; };
+		AA93E25A251AF11A003E9B7A /* MyViewFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E259251AF11A003E9B7A /* MyViewFiveViewController.swift */; };
+		AA93E25E251AF135003E9B7A /* MyViewFiveStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E25D251AF135003E9B7A /* MyViewFiveStoryboard.storyboard */; };
+		AA93E262251AF1FF003E9B7A /* MyViewFiveNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E261251AF1FF003E9B7A /* MyViewFiveNavViewController.swift */; };
+		AA93E265251AF21A003E9B7A /* MyViewFiveNavStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E264251AF21A003E9B7A /* MyViewFiveNavStoryboard.storyboard */; };
+		AA93E27A251AFCF0003E9B7A /* MyViewSixModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E279251AFCF0003E9B7A /* MyViewSixModalViewController.swift */; };
+		AA93E27D251AFD07003E9B7A /* MyViewSixModalStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E27C251AFD07003E9B7A /* MyViewSixModalStoryboard.storyboard */; };
+		AA93E280251AFE5A003E9B7A /* MyViewSixNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E27F251AFE5A003E9B7A /* MyViewSixNavViewController.swift */; };
+		AA93E283251AFE74003E9B7A /* MyViewSixNavStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E282251AFE74003E9B7A /* MyViewSixNavStoryboard.storyboard */; };
+		AA93E287251B0112003E9B7A /* MyViewSevenModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E286251B0112003E9B7A /* MyViewSevenModalViewController.swift */; };
+		AA93E28B251B0128003E9B7A /* MyViewSevenModalStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E28A251B0128003E9B7A /* MyViewSevenModalStoryboard.storyboard */; };
+		AA93E28E251B01AD003E9B7A /* MyViewSevenNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E28D251B01AD003E9B7A /* MyViewSevenNavViewController.swift */; };
+		AA93E291251B01C0003E9B7A /* MyViewSevenNavStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E290251B01C0003E9B7A /* MyViewSevenNavStoryboard.storyboard */; };
+		AA93E295251B02DE003E9B7A /* MyViewEightModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E294251B02DE003E9B7A /* MyViewEightModalViewController.swift */; };
+		AA93E299251B02F2003E9B7A /* MyViewEightModalStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E298251B02F2003E9B7A /* MyViewEightModalStoryboard.storyboard */; };
+		AA93E29C251B037B003E9B7A /* MyViewEightNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E29B251B037B003E9B7A /* MyViewEightNavViewController.swift */; };
+		AA93E29F251B038F003E9B7A /* MyViewEightNavStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E29E251B038F003E9B7A /* MyViewEightNavStoryboard.storyboard */; };
+		AA93E2A4251B0557003E9B7A /* MyViewNineModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E2A3251B0557003E9B7A /* MyViewNineModalViewController.swift */; };
+		AA93E2A8251B0568003E9B7A /* MyViewNineModalStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E2A7251B0568003E9B7A /* MyViewNineModalStoryboard.storyboard */; };
+		AA93E2AB251B0715003E9B7A /* MyViewNineNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93E2AA251B0715003E9B7A /* MyViewNineNavViewController.swift */; };
+		AA93E2AE251B0728003E9B7A /* MyViewNineNavStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E2AD251B0728003E9B7A /* MyViewNineNavStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA93E1FE251A8EFE003E9B7A /* ViewTelas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewTelas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA93E201251A8EFE003E9B7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA93E203251A8EFE003E9B7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA93E205251A8EFE003E9B7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA93E208251A8EFE003E9B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA93E20A251A8EFF003E9B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA93E20D251A8EFF003E9B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA93E20F251A8EFF003E9B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA93E217251A924E003E9B7A /* MyViewOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewOneViewController.swift; sourceTree = "<group>"; };
+		AA93E21F251A9288003E9B7A /* MyViewOneStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewOneStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E222251AC3A5003E9B7A /* MyViewOneNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewOneNavViewController.swift; sourceTree = "<group>"; };
+		AA93E225251AC3B9003E9B7A /* MyViewOneNavStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewOneNavStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E230251AC7CF003E9B7A /* MyviewTwoModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyviewTwoModalViewController.swift; sourceTree = "<group>"; };
+		AA93E233251AC7E4003E9B7A /* MyViewTwoModalStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwoModalStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E236251ACD13003E9B7A /* MyViewTwoNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoNavViewController.swift; sourceTree = "<group>"; };
+		AA93E239251ACD28003E9B7A /* MyviewTwoNavStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyviewTwoNavStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E23D251ACE6B003E9B7A /* MyViewThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeViewController.swift; sourceTree = "<group>"; };
+		AA93E241251ACE7F003E9B7A /* MyViewThreeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThreeStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E244251ACF88003E9B7A /* MyViewThreeNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeNavViewController.swift; sourceTree = "<group>"; };
+		AA93E247251ACF9C003E9B7A /* MyViewThreeNavStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThreeNavStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E24B251AD2B5003E9B7A /* MyViewFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewFourViewController.swift; sourceTree = "<group>"; };
+		AA93E24F251AD2C9003E9B7A /* MyViewFourStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewFourStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E252251AD36F003E9B7A /* MyViewFourNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewFourNavViewController.swift; sourceTree = "<group>"; };
+		AA93E255251AD386003E9B7A /* MyViewFourNavStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewFourNavStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E259251AF11A003E9B7A /* MyViewFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewFiveViewController.swift; sourceTree = "<group>"; };
+		AA93E25D251AF135003E9B7A /* MyViewFiveStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewFiveStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E261251AF1FF003E9B7A /* MyViewFiveNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewFiveNavViewController.swift; sourceTree = "<group>"; };
+		AA93E264251AF21A003E9B7A /* MyViewFiveNavStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewFiveNavStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E279251AFCF0003E9B7A /* MyViewSixModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSixModalViewController.swift; sourceTree = "<group>"; };
+		AA93E27C251AFD07003E9B7A /* MyViewSixModalStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewSixModalStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E27F251AFE5A003E9B7A /* MyViewSixNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSixNavViewController.swift; sourceTree = "<group>"; };
+		AA93E282251AFE74003E9B7A /* MyViewSixNavStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewSixNavStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E286251B0112003E9B7A /* MyViewSevenModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSevenModalViewController.swift; sourceTree = "<group>"; };
+		AA93E28A251B0128003E9B7A /* MyViewSevenModalStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewSevenModalStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E28D251B01AD003E9B7A /* MyViewSevenNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSevenNavViewController.swift; sourceTree = "<group>"; };
+		AA93E290251B01C0003E9B7A /* MyViewSevenNavStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewSevenNavStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E294251B02DE003E9B7A /* MyViewEightModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewEightModalViewController.swift; sourceTree = "<group>"; };
+		AA93E298251B02F2003E9B7A /* MyViewEightModalStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewEightModalStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E29B251B037B003E9B7A /* MyViewEightNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewEightNavViewController.swift; sourceTree = "<group>"; };
+		AA93E29E251B038F003E9B7A /* MyViewEightNavStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewEightNavStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E2A3251B0557003E9B7A /* MyViewNineModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewNineModalViewController.swift; sourceTree = "<group>"; };
+		AA93E2A7251B0568003E9B7A /* MyViewNineModalStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewNineModalStoryboard.storyboard; sourceTree = "<group>"; };
+		AA93E2AA251B0715003E9B7A /* MyViewNineNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewNineNavViewController.swift; sourceTree = "<group>"; };
+		AA93E2AD251B0728003E9B7A /* MyViewNineNavStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewNineNavStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA93E1FB251A8EFE003E9B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA93E1F5251A8EFE003E9B7A = {
+			isa = PBXGroup;
+			children = (
+				AA93E200251A8EFE003E9B7A /* ViewTelas */,
+				AA93E1FF251A8EFE003E9B7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA93E1FF251A8EFE003E9B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA93E1FE251A8EFE003E9B7A /* ViewTelas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA93E200251A8EFE003E9B7A /* ViewTelas */ = {
+			isa = PBXGroup;
+			children = (
+				AA93E2A1251B0522003E9B7A /* MyViewNine */,
+				AA93E293251B02BE003E9B7A /* MyViewEight */,
+				AA93E285251B00F2003E9B7A /* MyViewSeven */,
+				AA93E278251AFC84003E9B7A /* MyViewSix */,
+				AA93E258251AF0FC003E9B7A /* MyViewFive */,
+				AA93E24A251AD29C003E9B7A /* MyViewFour */,
+				AA93E23C251ACE45003E9B7A /* MyViewThree */,
+				AA93E22A251AC765003E9B7A /* MyViewTwo */,
+				AA93E216251A9220003E9B7A /* MyViewOne */,
+				AA93E201251A8EFE003E9B7A /* AppDelegate.swift */,
+				AA93E203251A8EFE003E9B7A /* SceneDelegate.swift */,
+				AA93E205251A8EFE003E9B7A /* ViewController.swift */,
+				AA93E207251A8EFE003E9B7A /* Main.storyboard */,
+				AA93E20A251A8EFF003E9B7A /* Assets.xcassets */,
+				AA93E20C251A8EFF003E9B7A /* LaunchScreen.storyboard */,
+				AA93E20F251A8EFF003E9B7A /* Info.plist */,
+			);
+			path = ViewTelas;
+			sourceTree = "<group>";
+		};
+		AA93E216251A9220003E9B7A /* MyViewOne */ = {
+			isa = PBXGroup;
+			children = (
+				AA93E217251A924E003E9B7A /* MyViewOneViewController.swift */,
+				AA93E21F251A9288003E9B7A /* MyViewOneStoryboard.storyboard */,
+				AA93E222251AC3A5003E9B7A /* MyViewOneNavViewController.swift */,
+				AA93E225251AC3B9003E9B7A /* MyViewOneNavStoryboard.storyboard */,
+			);
+			path = MyViewOne;
+			sourceTree = "<group>";
+		};
+		AA93E22A251AC765003E9B7A /* MyViewTwo */ = {
+			isa = PBXGroup;
+			children = (
+				AA93E230251AC7CF003E9B7A /* MyviewTwoModalViewController.swift */,
+				AA93E233251AC7E4003E9B7A /* MyViewTwoModalStoryboard.storyboard */,
+				AA93E236251ACD13003E9B7A /* MyViewTwoNavViewController.swift */,
+				AA93E239251ACD28003E9B7A /* MyviewTwoNavStoryboard.storyboard */,
+			);
+			path = MyViewTwo;
+			sourceTree = "<group>";
+		};
+		AA93E23C251ACE45003E9B7A /* MyViewThree */ = {
+			isa = PBXGroup;
+			children = (
+				AA93E23D251ACE6B003E9B7A /* MyViewThreeViewController.swift */,
+				AA93E241251ACE7F003E9B7A /* MyViewThreeStoryboard.storyboard */,
+				AA93E244251ACF88003E9B7A /* MyViewThreeNavViewController.swift */,
+				AA93E247251ACF9C003E9B7A /* MyViewThreeNavStoryboard.storyboard */,
+			);
+			path = MyViewThree;
+			sourceTree = "<group>";
+		};
+		AA93E24A251AD29C003E9B7A /* MyViewFour */ = {
+			isa = PBXGroup;
+			children = (
+				AA93E24B251AD2B5003E9B7A /* MyViewFourViewController.swift */,
+				AA93E24F251AD2C9003E9B7A /* MyViewFourStoryboard.storyboard */,
+				AA93E252251AD36F003E9B7A /* MyViewFourNavViewController.swift */,
+				AA93E255251AD386003E9B7A /* MyViewFourNavStoryboard.storyboard */,
+			);
+			path = MyViewFour;
+			sourceTree = "<group>";
+		};
+		AA93E258251AF0FC003E9B7A /* MyViewFive */ = {
+			isa = PBXGroup;
+			children = (
+				AA93E259251AF11A003E9B7A /* MyViewFiveViewController.swift */,
+				AA93E261251AF1FF003E9B7A /* MyViewFiveNavViewController.swift */,
+				AA93E264251AF21A003E9B7A /* MyViewFiveNavStoryboard.storyboard */,
+				AA93E25D251AF135003E9B7A /* MyViewFiveStoryboard.storyboard */,
+			);
+			path = MyViewFive;
+			sourceTree = "<group>";
+		};
+		AA93E278251AFC84003E9B7A /* MyViewSix */ = {
+			isa = PBXGroup;
+			children = (
+				AA93E279251AFCF0003E9B7A /* MyViewSixModalViewController.swift */,
+				AA93E27C251AFD07003E9B7A /* MyViewSixModalStoryboard.storyboard */,
+				AA93E27F251AFE5A003E9B7A /* MyViewSixNavViewController.swift */,
+				AA93E282251AFE74003E9B7A /* MyViewSixNavStoryboard.storyboard */,
+			);
+			path = MyViewSix;
+			sourceTree = "<group>";
+		};
+		AA93E285251B00F2003E9B7A /* MyViewSeven */ = {
+			isa = PBXGroup;
+			children = (
+				AA93E286251B0112003E9B7A /* MyViewSevenModalViewController.swift */,
+				AA93E28D251B01AD003E9B7A /* MyViewSevenNavViewController.swift */,
+				AA93E290251B01C0003E9B7A /* MyViewSevenNavStoryboard.storyboard */,
+				AA93E28A251B0128003E9B7A /* MyViewSevenModalStoryboard.storyboard */,
+			);
+			path = MyViewSeven;
+			sourceTree = "<group>";
+		};
+		AA93E293251B02BE003E9B7A /* MyViewEight */ = {
+			isa = PBXGroup;
+			children = (
+				AA93E294251B02DE003E9B7A /* MyViewEightModalViewController.swift */,
+				AA93E298251B02F2003E9B7A /* MyViewEightModalStoryboard.storyboard */,
+				AA93E29B251B037B003E9B7A /* MyViewEightNavViewController.swift */,
+				AA93E29E251B038F003E9B7A /* MyViewEightNavStoryboard.storyboard */,
+			);
+			path = MyViewEight;
+			sourceTree = "<group>";
+		};
+		AA93E2A1251B0522003E9B7A /* MyViewNine */ = {
+			isa = PBXGroup;
+			children = (
+				AA93E2A3251B0557003E9B7A /* MyViewNineModalViewController.swift */,
+				AA93E2AA251B0715003E9B7A /* MyViewNineNavViewController.swift */,
+				AA93E2AD251B0728003E9B7A /* MyViewNineNavStoryboard.storyboard */,
+				AA93E2A7251B0568003E9B7A /* MyViewNineModalStoryboard.storyboard */,
+			);
+			path = MyViewNine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA93E1FD251A8EFE003E9B7A /* ViewTelas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA93E212251A8EFF003E9B7A /* Build configuration list for PBXNativeTarget "ViewTelas" */;
+			buildPhases = (
+				AA93E1FA251A8EFE003E9B7A /* Sources */,
+				AA93E1FB251A8EFE003E9B7A /* Frameworks */,
+				AA93E1FC251A8EFE003E9B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewTelas;
+			productName = ViewTelas;
+			productReference = AA93E1FE251A8EFE003E9B7A /* ViewTelas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA93E1F6251A8EFE003E9B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AA93E1FD251A8EFE003E9B7A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = AA93E1F9251A8EFE003E9B7A /* Build configuration list for PBXProject "ViewTelas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA93E1F5251A8EFE003E9B7A;
+			productRefGroup = AA93E1FF251A8EFE003E9B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA93E1FD251A8EFE003E9B7A /* ViewTelas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA93E1FC251A8EFE003E9B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA93E2A8251B0568003E9B7A /* MyViewNineModalStoryboard.storyboard in Resources */,
+				AA93E226251AC3B9003E9B7A /* MyViewOneNavStoryboard.storyboard in Resources */,
+				AA93E20E251A8EFF003E9B7A /* LaunchScreen.storyboard in Resources */,
+				AA93E283251AFE74003E9B7A /* MyViewSixNavStoryboard.storyboard in Resources */,
+				AA93E291251B01C0003E9B7A /* MyViewSevenNavStoryboard.storyboard in Resources */,
+				AA93E25E251AF135003E9B7A /* MyViewFiveStoryboard.storyboard in Resources */,
+				AA93E28B251B0128003E9B7A /* MyViewSevenModalStoryboard.storyboard in Resources */,
+				AA93E299251B02F2003E9B7A /* MyViewEightModalStoryboard.storyboard in Resources */,
+				AA93E256251AD386003E9B7A /* MyViewFourNavStoryboard.storyboard in Resources */,
+				AA93E242251ACE7F003E9B7A /* MyViewThreeStoryboard.storyboard in Resources */,
+				AA93E29F251B038F003E9B7A /* MyViewEightNavStoryboard.storyboard in Resources */,
+				AA93E248251ACF9C003E9B7A /* MyViewThreeNavStoryboard.storyboard in Resources */,
+				AA93E220251A9288003E9B7A /* MyViewOneStoryboard.storyboard in Resources */,
+				AA93E27D251AFD07003E9B7A /* MyViewSixModalStoryboard.storyboard in Resources */,
+				AA93E234251AC7E4003E9B7A /* MyViewTwoModalStoryboard.storyboard in Resources */,
+				AA93E250251AD2C9003E9B7A /* MyViewFourStoryboard.storyboard in Resources */,
+				AA93E2AE251B0728003E9B7A /* MyViewNineNavStoryboard.storyboard in Resources */,
+				AA93E23A251ACD28003E9B7A /* MyviewTwoNavStoryboard.storyboard in Resources */,
+				AA93E20B251A8EFF003E9B7A /* Assets.xcassets in Resources */,
+				AA93E209251A8EFE003E9B7A /* Main.storyboard in Resources */,
+				AA93E265251AF21A003E9B7A /* MyViewFiveNavStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA93E1FA251A8EFE003E9B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA93E262251AF1FF003E9B7A /* MyViewFiveNavViewController.swift in Sources */,
+				AA93E231251AC7CF003E9B7A /* MyviewTwoModalViewController.swift in Sources */,
+				AA93E206251A8EFE003E9B7A /* ViewController.swift in Sources */,
+				AA93E28E251B01AD003E9B7A /* MyViewSevenNavViewController.swift in Sources */,
+				AA93E23E251ACE6B003E9B7A /* MyViewThreeViewController.swift in Sources */,
+				AA93E202251A8EFE003E9B7A /* AppDelegate.swift in Sources */,
+				AA93E218251A924E003E9B7A /* MyViewOneViewController.swift in Sources */,
+				AA93E204251A8EFE003E9B7A /* SceneDelegate.swift in Sources */,
+				AA93E223251AC3A5003E9B7A /* MyViewOneNavViewController.swift in Sources */,
+				AA93E280251AFE5A003E9B7A /* MyViewSixNavViewController.swift in Sources */,
+				AA93E253251AD36F003E9B7A /* MyViewFourNavViewController.swift in Sources */,
+				AA93E245251ACF88003E9B7A /* MyViewThreeNavViewController.swift in Sources */,
+				AA93E237251ACD13003E9B7A /* MyViewTwoNavViewController.swift in Sources */,
+				AA93E2A4251B0557003E9B7A /* MyViewNineModalViewController.swift in Sources */,
+				AA93E295251B02DE003E9B7A /* MyViewEightModalViewController.swift in Sources */,
+				AA93E24C251AD2B5003E9B7A /* MyViewFourViewController.swift in Sources */,
+				AA93E287251B0112003E9B7A /* MyViewSevenModalViewController.swift in Sources */,
+				AA93E29C251B037B003E9B7A /* MyViewEightNavViewController.swift in Sources */,
+				AA93E27A251AFCF0003E9B7A /* MyViewSixModalViewController.swift in Sources */,
+				AA93E25A251AF11A003E9B7A /* MyViewFiveViewController.swift in Sources */,
+				AA93E2AB251B0715003E9B7A /* MyViewNineNavViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA93E207251A8EFE003E9B7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA93E208251A8EFE003E9B7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA93E20C251A8EFF003E9B7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA93E20D251A8EFF003E9B7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA93E210251A8EFF003E9B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA93E211251A8EFF003E9B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA93E213251A8EFF003E9B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DVPSJM64H;
+				INFOPLIST_FILE = ViewTelas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thiagomonteiro.ViewTelas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA93E214251A8EFF003E9B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DVPSJM64H;
+				INFOPLIST_FILE = ViewTelas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thiagomonteiro.ViewTelas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA93E1F9251A8EFE003E9B7A /* Build configuration list for PBXProject "ViewTelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA93E210251A8EFF003E9B7A /* Debug */,
+				AA93E211251A8EFF003E9B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA93E212251A8EFF003E9B7A /* Build configuration list for PBXNativeTarget "ViewTelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA93E213251A8EFF003E9B7A /* Debug */,
+				AA93E214251A8EFF003E9B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA93E1F6251A8EFE003E9B7A /* Project object */;
+}
